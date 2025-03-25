@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World - Tourism Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem;
+        }
+        
+        nav a:hover {
+            background-color: #1abc9c;
+            border-radius: 4px;
+        }
+        
+        .hero {
+            height: 400px;
+            background-image: url('https://source.unsplash.com/1600x900/?travel,landscape');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+        .hero-content {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        
+        .destinations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+        
+        .destination-card {
+            width: 300px;
+            margin: 1rem;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .destination-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .card-content {
+            padding: 1rem;
+        }
+        
+        .cta-section {
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 1rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: white;
+            color: #1abc9c;
+            padding: 0.8rem 2rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Discover Amazing Destinations</h1>
+        <p>Your journey to unforgettable experiences starts here</p>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="destinations.html">Destinations</a>
+        <a href="packages.html">Tour Packages</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Explore the World's Most Beautiful Places</h2>
+            <p>From stunning beaches to majestic mountains, we offer the best travel experiences</p>
+        </div>
+    </section>
+    
+    <section class="destinations">
+        <h2 style="width: 100%; text-align: center; margin-bottom: 2rem;">Popular Destinations</h2>
+        
+        <div class="destination-card">
+            <img src="https://source.unsplash.com/300x200/?beach" alt="Beautiful Beach">
+            <div class="card-content">
+                <h3>Tropical Paradise</h3>
+                <p>Experience white sand beaches and crystal clear waters</p>
+                <a href="beach-destination.html">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="destination-card">
+            <img src="https://source.unsplash.com/300x200/?mountains" alt="Mountain Range">
+            <div class="card-content">
+                <h3>Mountain Retreat</h3>
+                <p>Discover peace and adventure in breathtaking mountains</p>
+                <a href="mountain-destination.html">Learn More</a>
+            </div>
+        </div>
+        
+        <div class="destination-card">
+            <img src="https://source.unsplash.com/300x200/?city" alt="Historic City">
+            <div class="card-content">
+                <h3>Urban Exploration</h3>
+                <p>Immerse yourself in culture and history of famous cities</p>
+                <a href="city-destination.html">Learn More</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta-section">
+        <h2>Ready to Start Your Adventure?</h2>
+        <p>Book your dream vacation today and get special discounts!</p>
+        <a href="packages.html" class="cta-button">View Tour Packages</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Explore the World - Tourism Website. All rights reserved.</p>
+        <p>Contact us: info@exploretourism.com | Phone: +1 (555) 123-4567</p>
+    </footer>
+</body>
+</html></html>
